@@ -14,8 +14,8 @@ psycopg2-binary (for working with Postgres)
 3. Create and activate a virtual environment (optional but recommended): virtualenv env && source env/bin/activate
 4. Install dependencies: pip install -r requirements.txt
 5. Create a Postgres database and specify its details in mysite/settings.py file:
-
-``` DATABASES = {
+```
+ DATABASES = {
    'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'bogdan2ko1',
