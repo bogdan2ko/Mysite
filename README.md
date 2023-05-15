@@ -9,11 +9,11 @@ Django 3.2 or higher
 psycopg2-binary (for working with Postgres)
 
 ## Installation
-1.Clone the repository to your computer: git clone https://github.com/yourusername/mysite.git
-2.Navigate to the mysite directory: cd mysite
-3.Create and activate a virtual environment (optional but recommended): virtualenv env && source env/bin/activate
-4.Install dependencies: pip install -r requirements.txt
-5.Create a Postgres database and specify its details in mysite/settings.py file:
+1. Clone the repository to your computer: git clone https://github.com/yourusername/mysite.git
+2. Navigate to the mysite directory: cd mysite
+3. Create and activate a virtual environment (optional but recommended): virtualenv env && source env/bin/activate
+4. Install dependencies: pip install -r requirements.txt
+5. Create a Postgres database and specify its details in mysite/settings.py file:
 
 DATABASES = {
     'default': {
@@ -26,6 +26,6 @@ DATABASES = {
     }
 }
 
-6.Run migrations to create necessary tables in the database: python manage.py migrate
-7.Start the local server: python manage.py runserver
-8.After that, you can open a web browser and navigate to http://localhost:8000 to see MySite in action.
+6. Run migrations to create necessary tables in the database: python manage.py migrate
+7. Start the local server: python manage.py runserver
+8. After that, you can open a web browser and navigate to http://localhost:8000 to see MySite in action.
