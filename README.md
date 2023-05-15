@@ -17,10 +17,10 @@ psycopg2-binary (for working with Postgres)
 ```
  DATABASES = {
    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'bogdan2ko1',
-        'USER': 'postgres',
-        'PASSWORD': '',
+       'ENGINE': 'django.db.backends.postgresql_psycopg2',
+       'NAME': 'bogdan2ko1',
+       'USER': 'postgres',
+       'PASSWORD': '',
        'HOST': 'localhost',
        'PORT': '5432',
     }
