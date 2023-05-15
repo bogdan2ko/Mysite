@@ -24,8 +24,8 @@ psycopg2-binary (for working with Postgres)
        'HOST': 'localhost',
        'PORT': '5432',
     }
- } ```
-
+ } 
+```
 6. Run migrations to create necessary tables in the database: python manage.py migrate
 7. Start the local server: python manage.py runserver
 8. After that, you can open a web browser and navigate to http://localhost:8000 to see MySite in action.
