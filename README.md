@@ -15,16 +15,16 @@ psycopg2-binary (for working with Postgres)
 4. Install dependencies: pip install -r requirements.txt
 5. Create a Postgres database and specify its details in mysite/settings.py file:
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'bogdan2ko1',
-        'USER': 'postgres',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+. DATABASES = {
+.   'default': {
+.        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+.        'NAME': 'bogdan2ko1',
+.        'USER': 'postgres',
+.        'PASSWORD': '',
+.        'HOST': 'localhost',
+.        'PORT': '5432',
+.    }
+. }
 
 6. Run migrations to create necessary tables in the database: python manage.py migrate
 7. Start the local server: python manage.py runserver
